@@ -1,0 +1,325 @@
+/*Removing the default style of the broswer and adding common stuff*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration:none !important;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+main{
+    margin: 0 auto;
+}
+.active a{
+    color: red!important;
+}
+
+/* NAVBAR */
+.custom-settings{
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+.navbar-scrolled {
+    height: 65px;
+    background-color: #fff
+}
+#logo img{
+    height: 50px;
+    width: 100px;
+}
+.nav-item{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: black!important;
+}
+.nav-background{
+    background-color: #fff;
+}
+.search-icon{
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+/* BANNER */
+.custom-container img{
+    top: 0;
+    height: 350px ;
+    width: 100%;
+}
+.custom-container{
+    margin-bottom: 20px;
+}
+
+/* SECTION  */
+section{
+    width: 100%;
+}
+section a{
+    color: black;
+    transition: 0.4s;
+}
+.section-heading h1{
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px;
+    margin: 20px 10px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    transition: 0.4s;
+}
+.section-heading h1:hover{
+    padding: 8px 32px;
+    border-left: 3px solid #007bff;
+    border-right: 3px solid #007bff;
+}
+.card{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.card:hover{
+    box-shadow: 0px 10px 6px -6px #777;
+}
+.card-img{
+    width: 100%;
+}
+.card-img:hover{
+    box-shadow: 0px 10px 6px -6px #777;
+}
+.card-img img{
+    width: 100%;
+}
+.card-content{
+    padding: 10px;
+    text-align: center;
+}
+.card-content h2{
+    font-size: 30px;
+}
+.card-content h2:hover{
+    box-shadow: 0px 10px 6px -6px #777;
+}
+.card-content p{
+    color: #777;
+    width: 95%;
+}
+.card-content p:hover{
+    box-shadow: 0px 10px 6px -6px #777;
+}
+
+/* FOOTER  */
+footer{
+    background: black;
+    padding: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: red;
+}
+footer #left-footer{
+    padding-left: 32px;
+}
+footer #left-footer ul{
+    padding: 0;
+    list-style: none;
+    line-height: 1.5;
+}
+footer #right-footer{
+    float: 2px;
+    padding: 8px;
+    text-align: center;
+    background: black;
+    color: white;
+}
+footer #right-footer a{
+    color:white;
+}
+
+/*SOCIAL MEDIA FOOTER*/
+footer #social-media-footer a .fa-facebook,
+footer #social-media-footer a .fa-instagram,
+footer #social-media-footer a .fa-linkedin,
+footer #social-media-footer a .fa-quora,
+footer #social-media-footer a .fa-twitter{
+    color: white;
+    transition:0.4s;
+}
+footer #social-media-footer ul{
+    display: flex;
+    list-style:none;
+    justify-content: center;
+    padding:0px
+}
+footer #social-media-footer ul li{
+    font-size: 48px;
+    padding: 16px;
+    transition: 0.4s;
+}
+
+/*HOVER EFFECT IN SOCIAL MEDIA ICONS*/
+footer #social-media-footer ul li:hover a .fa-facebook{
+    color: #3b5998 ;
+}
+footer #social-media-footer ul li:hover a .fa-linkedin{
+    color: #0e76a8 ;
+}
+footer #social-media-footer ul li:hover a .fa-instagram{
+    color: #a646c4  ;
+}
+footer #social-media-footer ul li:hover a .fa-twitter{
+    color: #00acee  ;
+}
+footer #social-media-footer ul li:hover a .fa-quora{
+    color: #AA2200  ;
+}
+footer #social-media-footer a .fa-facebook,
+footer #social-media-footer a .fa-instagram,
+footer #social-media-footer a .fa-linkedin,
+footer #social-media-footer a .fa-quora,
+footer #social-media-footer a .fa-twitter{
+    color: white;
+    transition:0.4s;
+}
+
+/* ARTICLE LIST PAGE */
+.category-heading h1{
+    font-size: 45px;
+    margin-top: 130px;
+    text-align: center;
+}
+
+/*   ARTICLE PAGE   */
+.main-heading h1{
+    font-size: 32px;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+.connect li{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+    display: inline-block;
+    margin: auto;
+}
+.connect ul li a .fa-facebook{
+    color: #3b5998 ;
+}
+.connect ul li a .fa-linkedin{
+    color: #0e76a8 ;
+}
+.connect ul li a .fa-instagram{
+    color: #a646c4  ;
+}
+.connect ul li a .fa-twitter{
+    color: #00acee  ;
+}
+.connect ul li a .fa-quora{
+    color: #AA2200  ;
+}
+.main-heading h1{
+    font-size: 42px;
+}
+.featured-img img{
+    width: 100%;
+}
+.links{
+    padding: 20px 0;
+}
+.links h3{
+    margin-left: 5%;
+}
+.content{
+    margin-top: 30px;
+    margin-bottom: 30px; 
+}
+.content h2{
+    text-align: center;
+}
+.content p{
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* MEDIA QUERIES */
+@media(min-width:720px){
+    main{
+        width: 90%;
+    }
+    .custom-container img{
+        height: 450px;
+    }
+    .articles{
+        display: flex;
+        flex-direction: row;
+    }
+    .card{
+        margin: 10%;
+        width: 90%;
+    }
+    .card-content{
+        text-align: left;
+    }
+    #left-footer h3{
+        text-align: left;
+    }
+    #left-footer ul{
+        text-align: left;
+    }
+    #left-footer li{
+        display: inline;
+        padding: 20px 10px;
+    }
+    article{
+        width: 85%;
+        margin: 100px auto;
+        padding: 0 40px;
+        border: 1px solid grey;
+    }
+    .more{
+        width: 85%;
+        margin: auto;
+    }
+    .content h2{
+        text-align: left;
+    }
+    .content p{
+        text-align: left;
+    }
+}
+
+@media(min-width:900px){
+    .custom-container img{
+        height: 550px;
+    }
+    article{
+        width: 80%;
+    }
+    .featured-img img{
+        width: 80%;
+    }
+}
+@media(min-width:1000px){
+    nav ul{
+        margin-left: 60%;
+    }
+    article{
+        width: 75%;
+    }
+}
